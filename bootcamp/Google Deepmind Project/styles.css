@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+.main-container{
+    width: 100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    row-gap: 5rem;
+    
+    
+}
+.background-video-container{
+    width: 100%;
+    height:100%;
+    color: white;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    column-gap: 1rem;
+    padding: 1rem 1rem;
+    
+}
+.deepmind{
+   width: 50%;
+   height: auto;
+}
+.deepmind h1{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.about-icon-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap:0.5rem;
+}
+.mind{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.icon-name-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 2rem;
+}
+.icon-name-container .abt-icon:hover{
+    background-color: rgb(121, 121, 121);
+    color: white;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+}
+.icon-container .icons:hover{
+    background-color: rgb(121, 121, 121);
+    color: white;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+}
+.abt-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 0.5rem;
+}
+.icons-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    column-gap: 2rem;
+}
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width:100%;
+        height:120vh;
+    }
+}
+.veo-container{
+    width: 100%;
+    height: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    padding: 10rem;
+    
+}
+.veo-container h1{
+    font-size:700% ;
+    font-weight: 600;
+}
+.veo-container p{
+    font-size: 100%;
+    font-weight: 600;
+    padding: 1rem;
+}
+.button{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+button{
+    padding: 0.90rem;
+    color: blue;
+    border-radius:10rem;
+    border: 1px solid black;
+}
+.button:hover{
+    border: 1px solid blue;
+  
+    border-radius:10rem;
+}
+.other-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    padding: 5rem;
+    row-gap: 7rem;
+}
+.second-main-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items:center;
+    row-gap: 2rem;
+}
+.latest-container{
+    width:97%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.view{
+    color: blue;
+}
+.Discover{
+    color: rgb(100, 96, 96);
+}
+.image{
+   
+    height: auto;
+}
+.image img{
+    width: 100%;
+    border-top-left-radius:1rem;
+    border-top-right-radius: 1rem;
+}
+.cards-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 2rem;
+}
+.Technologies-container{
+    width:100%;
+    height:auto;
+    border: 1px solid whitesmoke;
+    border-radius:1rem;
+    border-width: 10%;
+    column-gap:1rem;
+    border: 1px solid rgb(212, 211, 211);
+}
+.Technologies-container:hover{
+    box-shadow: 0 10px 11px rgba(18, 17, 17, 0.1);
+}
+.white-small-container{
+    color: rgb(100, 96, 96);
+    padding: 0.9rem;
+    font-size: 70%;
+}
+.black-container{
+    padding: 0.9rem;
+    font-size: 100%;
+    font-weight: 600;
+}
+.whitesmoke-container{
+    color: rgb(100, 96, 96);
+    padding: 0.9rem;
+    font-size: 90%;
+}
+.bottom-last-container{
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0.9rem;
+}
+.date-conatiner{
+    font-size: 90%;
+    color: rgb(100, 96, 96);
+}
+.icon-container{
+    color: blue;
+}
+
+.third-main-container{
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items:center;
+    row-gap: 1rem;
+}
+
+.image-container{
+    width: 100%;
+    height:100vh;
+    background-image: url(./images/deepmind.webp);
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.9rem;
+}
+.text-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    padding: 15rem;
+    color: white;
+    row-gap: 7rem;
+}
+.discover{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.google{
+    padding: 1rem;
+    font-size: 150%;
+}
+.episode{
+    padding: 2rem;
+}
+.learn-button{
+    padding: 5rem;
+}
+.learn-button button{
+    width: fit-content;
+    height: auto;
+    color: blue;
+    padding: 1.4rem;
+    border-radius:7rem;
+    font-size: 100%;
+}
+.seperate{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.forth-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+    row-gap: 5rem;
+}
+.tech-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+    row-gap: 2rem;
+  
+}
+.technologies h1{
+    font-size: 300%;
+    font-weight: 400;
+}
+.research{
+    font-size: 100%;
+    font-weight: 300;
+    color: rgb(152, 151, 151);
+}
+.view a{
+    color: rgb(49, 49, 237);
+    text-decoration: none;
+    font-size: 130%;
+}
+.tech-container .view:hover{
+    width: fit-content;
+    background-color: rgb(245, 245, 253);
+    padding:0.3rem;
+    border-radius: 0.8rem;
+}
+.images-container{
+    width: 100%;
+    height:100vh;
+    background-image: url(./images/astra.webp);
+    background-color: whitesmoke;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0.9rem;
+}
+.astra h1{
+    font-size: 400%;
+    padding: 1rem;
+}
+.universal h2{
+    font-size: 100%;
+    font-weight: 400;
+}
+.seperates{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+.fifth-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+.card-one-container{
+    width:98%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 2rem;
+}
+.white-black-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding: 1.5rem;
+    row-gap: 0.5rem;
+}
+.bottom-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    padding: 2rem;
+}
+.black-small-container{
+    color: rgb(100, 98, 98);
+}
+.card-two-container{
+    width:98%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 4rem;
+}
+.images img{
+    width: 100%;
+    border-top-left-radius:1rem;
+    border-top-right-radius: 1rem;
+}
+.sixth-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 2rem;
+}
+.response-conatiner{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 1rem;
+}
+.response-conatiner h2{
+    color: rgb(116, 114, 114);
+    font-weight: 400;
+}
+.response-conatiner h1{
+    font-size: 300%;
+    font-weight: 400;
+}
+.two-cards-container{
+    width:98%;
+    height:auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    column-gap: 4rem;
+}
+
+.first-last-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 9rem;
+}
+.explore-part{
+    width: 100%;
+}
+.google-ai-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+.me-button{
+    width:130%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 0.1rem;
+    border-radius: 0.5rem;
+    border: 1px solid rgb(202, 200, 200);
+    background-color:white;
+}
+.me-button:hover{
+    border: none;
+    box-shadow: 0 2px 5px  rgba(18, 17, 17, 0.1);
+}
+.icon-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    align-items: end;
+    padding: 0.7rem;
+    color: black;
+}
+.google-developer-part{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    row-gap: 0.5rem;
+}
+.h-three{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction:row;
+    justify-content: start;
+    align-items: center;
+    color: black;
+}
+.second-last-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    background-color: whitesmoke;
+}
+.follow-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 3rem;
+    column-gap: 2rem;
+    border-bottom: 1px solid black;
+}
+.apps-icon{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    column-gap: 2rem;
+    font-size: 150%;
+}
+.apps-icon i:hover{
+    background-color: rgb(177, 176, 176);
+    padding: 0.5rem;
+    width: fit-content;
+    border-radius: 0.90rem;
+}
+.three-lines-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 3rem;
+    column-gap: 1rem;
+    border-bottom: 1px solid black;
+}
+.about-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.link{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.link a{
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+.link a:hover{
+    color: black;
+}
+.anchor a{
+    color: rgb(104, 103, 103);
+}
+.anchor a:hover{
+    background-color: rgb(206, 236, 236);
+}
+.other-icons{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    column-gap: 1rem;
+}
+.google-container a{
+    text-decoration: none;
+    color: rgb(104, 103, 103);
+}
+.google-container a:hover{
+    color: black;
+}
+.learn-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.email-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    row-gap: 1rem;
+}
+.google-container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    padding: 3rem;
+    column-gap: 1rem;
+}
+.the-button{
+    width: fit-content;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+button{
+    padding: 0.90rem;
+    color: blue;
+    border-radius:10rem;
+    border:1px solid black
+}
+button:hover{
+    border: 1px solid blue;
+    
+    border-radius:10rem;
+}
+.email-container h5{
+    color: rgb(104, 103, 103);
+}
+.email-class i{
+    color:rgb(104, 103, 103) ;
+    padding: 1rem;
+    background-color: white;
+    border-top-left-radius: 
+}
+.email-class input{
+    padding: 1rem;
+    outline: none;
+    border: none;
+}
+.email-class{
+    width:fit-content;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: start;
+    border-radius: 0.8rem;
+}
